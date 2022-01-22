@@ -14,9 +14,6 @@ muestra_oculta('contenido');/* "contenido_a_mostrar" es el nombre que le dimos a
 
 
 
-function saludar(){
-    alert("HOLA PERRO")
-}
 
 
 

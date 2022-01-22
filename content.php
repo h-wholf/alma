@@ -21,7 +21,7 @@
 
 </div> 
     <br>
-    <a style='cursor: help;' onClick="saludar()" title="s" class="boton1"> DAME CLICK </a>
+    <a style='cursor: help;' onClick="saludars()" title="s" class="boton1"> DAME CLICK </a>
 <br>
 <div>
 <script>
@@ -50,4 +50,14 @@ include 'funciones.js';
     saludar(" max el perro")
     </script>
 </div>
+
+
+<div>
+  <script>
+  boton("dame click perro")
+  
+  boton("hola soy otro poton perra")
+  </script>
+  
+  </div>
 </body>
