@@ -1,63 +1,22 @@
 
 <body>
+  <h1><center><a class="boton1" style="cursor: pointer" onClick="mostrar_ocultar('detalles2')"   >ocultar funcion</a></center></h1>
+<div class="detalles" id="ocultar" >
 
-<h1>hola soy el contenido de esta pagina</h1>
-<div class="titulo_boton">
-   <p>Información adicional</p> 
-  <a style='cursor: pointer;' onClick="muestra_oculta('contenido')" title="" class="boton1">   Mostrar / Ocultar</a>
-</div>
-<div class="texto" id="contenido">
-<center>
-<p>hola soy contenido de texto</p>
-
-
-</center>
 
 
 </div>
-
-<div class="">
-<button>hola soy un boton</button>
-
-</div> 
-    <br>
-    <a style='cursor: help;' onClick="saludars()" title="s" class="boton1"> DAME CLICK </a>
-<br>
-<div>
-<script>
-document.write('Hola');
-</script>
-
-<script>
-document.write(+screen.width);
-</script>
-<script>
-document.write('Ancho de la pantalla: '+screen.width+' pixeles');
-
-</script>
-
-<?php
-//aqui van todos los scripts de javascript
-include 'funciones.js';
-
-?>
-<script>
-    salto()
-    prueba();
-    salto()
-    saludar(" joaquin ")
-    salto()
-    saludar(" max el perro")
-    </script>
-</div>
-
 
 <div>
-  <script>
-  boton("dame click perro")
-  
-  boton("hola soy otro poton perra")
-  </script>
-  
-  </div>
+<h1 class="detalles2" id="detalles2">
+  Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus consectetur voluptatum, reiciendis 
+  cum consequuntur totam aut explicabo necessitatibus placeat labore incidunt voluptate,
+   laudantium neque ipsum suscipit maxime dolorem atque ut.</h1>
+
+
+
+</div>
+
+
+
 </body>

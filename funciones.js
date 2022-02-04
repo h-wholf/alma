@@ -1,26 +1,24 @@
-<script>
-function salto(){
-    document.write("<br>")
-}
-function prueba(){
 
-    document.write("mensaje deprueba desde funciones js")
-
-}
-function saludar(nombre)
+var interruptor="apagado";
+function inicio()
 {
-    document.write("hola"+ nombre)
-}
-function saludars(){
-    alert("HOLA PERRO");
+    var ocultar=document.getElementById("ocultar");
+    ocultar.style.display ="none";
 }
 
-function boton(texto)
+function magia()
 {
-  document.write("<a  class='boton1' style='cursor: help;' onClick='saludars()' title='s' class='boton'>"+texto +"</a><br>")
-  
-  
+if (interruptor=="encendido")
+{
+    console.log("apagando")
+    interruptor="apagado";
+    var ocultar=document.getElementById("ocultar");
+    ocultar.style.display ="none";
+}else {
+    console.log("esta apagado  ensendiendo");
+    interruptor="encendido";
+    var ocultar=document.getElementById("ocultar");
+    ocultar.style.display ="";
 }
-
-
-</script>
+}
+window.onload = inicio;
