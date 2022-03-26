@@ -12,7 +12,8 @@ include 'head.php';
 
 <?php
 //aqui va todo el contenido de la pagina web
-include 'content2.php';
+include '3.php';
+
 
 ?>
 
