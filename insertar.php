@@ -1,4 +1,20 @@
 <?php
+//aqui van todos los scripts de javascript
+include 'scripts.php';
+
+?>
+<?php
+// aqui se define el titulo de la pagina y se linkea los estilos css y otros metadatos
+include 'head.php';
+
+?>
+<?php
+//aqui va el fondo de la pagina web
+include 'botom.php';
+
+?>
+
+<?php
 /*
 	CRUD con SQLite3, PDO y PHP
 	parzibyte.me
@@ -37,4 +53,12 @@ if($resultado === true){
 }else{
 	echo "Lo siento, ocurrió un error";
 }
+
+
 ?>
+<script type="text/javascript">
+	function redireccionarPagina() {
+  window.location = "2.php";
+}
+setTimeout("redireccionarPagina()", 2000);
+</script>
