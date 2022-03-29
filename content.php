@@ -29,12 +29,19 @@
 <div class="contenedor">
 	
 <section class="registrar">
-	<p class="texto"> registrar en la base de datos<br><br><br><button class="boton" onclick="location.href='2.php'"> actas de nacimientos</button> <br>actas de matrimonio<br>actas de defuncion</p></p>
+	<p class="texto"> registrar en la base de datos<br><br><br>
+		<a class="link"href="2.php">actas de nacimiento</a>
+		<br><a class="link2"href="2.php">actas de matrimonio</a><br>actas de defuncion</p></p>
 </section>
 
 <aside class="consultar">
-	<p class="texto">consultar en la base de datos <br><br><br>actas de nacimientos<br>actas de matrimonio<br>actas de defuncion</p>
+	<p class="texto">
+		consultar en la base de datos <br><br>
+		<br><a class="link2"href="buscar.php">actas de nacimiento</a><br>
+		actas de matrimonio<br>
+	actas de defuncion</p>
 </aside>
+
 
 </div>
 </div>

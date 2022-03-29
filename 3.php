@@ -5,6 +5,7 @@
 		<input class="input" oninput="this.value = this.value.toUpperCase()" type="text" id="NOMBRE" name="NOMBRE" required placeholder="NOMBRE COMPLETO">
 		<br>
 		<br>
+		
 		<label  for="FECHA">FECHA DE NACIMIENTO: </label>
 		<input  class="input" type="date" id="FECHA" name="FECHA" required placeholder="FECHA DE NACIMIENTO 12/22/1990">
 		<br>

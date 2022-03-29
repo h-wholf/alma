@@ -1,5 +1,6 @@
 <?php
-$c = ("ALMA DELIA VARGAS ALVAREZ");
+
+$c = ($_POST["NOMBRE"]);
 /*
 
 	CRUD con SQLite3, PDO y PHP

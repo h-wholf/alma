@@ -13,3 +13,9 @@ function mostrar_ocultar(id)
     
     }
 }
+
+
+function enlase(link,texto)
+{
+	document.write('<a class="link" href="' + link + '">' + texto);
+}

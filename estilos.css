@@ -1,7 +1,7 @@
 body
 {
-    color: #ffffff;
-    background-color: rgb(52, 80, 97);
+    color: #FFFFFF;
+    background-color: #0C2D50;
 }
 
 .boton1
@@ -57,7 +57,7 @@ body
      border-radius: 4px;
 }
 .titulo{
-    background-color: #068343;
+    background-color: #098982;
     border-radius: 15px;
     padding: 20px;
     text-transform: capitalize;
@@ -85,4 +85,10 @@ body
 .texto{
     text-transform: capitalize;
     text-shadow: 0.1em 0.1em 0.2em black
+}
+.link{
+    color: #F2901B;
+}
+.link2{
+    color: #21FF19;
 }
