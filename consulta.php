@@ -15,15 +15,30 @@ $datos = $resultado->fetchAll(PDO::FETCH_OBJ);
 <html lang="es">
 <head>
 	<meta charset="UTF-8">
-	<title>Tabla estática</title>
-	<style>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, user-scalable=no initial-scale=1.0 maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>REGISTRO CIVIL DE SANTA MARIA GUADALUPE TECOLA</title>
+    <script type="text/javascript" src="ocultar.js"></script>
+	<style> 
 		table, th, td {
-		    border: 1px solid blue;
+		    border: 2px solid #202020;
 		}
 	</style>
 </head>
+<?php
+//aqui van todos los scripts de javascript
+include 'scripts.php';
+
+?>
+<?php
+// aqui se define el titulo de la pagina y se linkea los estilos css y otros metadatos
+include 'head.php';
+
+?>
 <body>
-	<table>
+	<center>
+	<table class="tabla">
 		<thead>
 			<tr>
 				<th>nombre completo</th>
@@ -46,7 +61,7 @@ $datos = $resultado->fetchAll(PDO::FETCH_OBJ);
 			<?php } /*Cerrar llave, fin de foreach*/ ?>
 
 		</tbody>
-	</table>
+	</table></center>
 </body>
 </html>
 

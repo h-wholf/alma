@@ -19,7 +19,7 @@
 		<button type="submit">buscar</button>
 	</form>
 </center>
-
+<div><center><a class="link2" href="index.php">regresar al inicio</a></center></div>
 		
 	</section>
 </div>

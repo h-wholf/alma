@@ -54,7 +54,8 @@ body
 .input{
     color: white;
     background-color: #034753 ;
-     border-radius: 4px;
+    border-radius: 4px;
+    width: 50%;
 }
 .titulo{
     background-color: #098982;
@@ -91,4 +92,9 @@ body
 }
 .link2{
     color: #21FF19;
+}
+.tabla{
+    color: white;
+    background-color: #025543;
+
 }
